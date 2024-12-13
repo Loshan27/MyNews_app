@@ -56,7 +56,7 @@ class _SearchNewsPageState extends State<SearchNewsPage> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Search News'),
-        backgroundColor: Colors.blue,
+        backgroundColor: Colors.orange,
         foregroundColor: Colors.white,
       ),
       body: _isLoading

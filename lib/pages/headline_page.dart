@@ -56,7 +56,7 @@ class _HeadlinePageState extends State<HeadlinePage> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Top Headlines'),
-        backgroundColor: Colors.blue,
+        backgroundColor: Colors.orange,
         foregroundColor: Colors.white,
       ),
       body: _isLoading
@@ -88,11 +88,11 @@ class _HeadlinePageState extends State<HeadlinePage> {
                                 horizontal: 16.0, vertical: 4.0),
                             decoration: BoxDecoration(
                               color:
-                                  isSelected ? Colors.blue : Colors.grey[300],
+                                  isSelected ? Colors.orange : Colors.grey[300],
                               borderRadius: BorderRadius.circular(5),
                               border: Border.all(
                                 color: isSelected
-                                    ? Colors.blue
+                                    ? Colors.orange
                                     : Colors.transparent,
                                 width: 2,
                               ),

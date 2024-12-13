@@ -4,7 +4,7 @@ import 'package:dio/dio.dart';
 class ApiClient {
   final Dio _dio = Dio(BaseOptions(
     baseUrl: 'https://newsapi.org/v2/',
-    headers: {'Authorization': 'Bearer c6bdbe89c47e48ab99382d58402330e5'},
+    headers: {'Authorization': 'Bearer 092cd6237e464242a7056b3c35b97a97'},
   ));
 
   Future<Response> getTopHeadlines({required String category}) async {

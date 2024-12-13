@@ -55,7 +55,7 @@ class _PopularNewsPageState extends State<PopularNewsPage> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Popular News'),
-        backgroundColor: Colors.blue,
+        backgroundColor: Colors.orange,
         foregroundColor: Colors.white,
       ),
       body: _isLoading

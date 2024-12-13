@@ -40,7 +40,7 @@ class SingleNewsPage extends StatelessWidget {
               child: const Text(
                 'Read the full article',
                 style: TextStyle(
-                  color: Colors.blue,
+                  color: Colors.orange,
                   fontWeight: FontWeight.bold,
                 ),
               ),

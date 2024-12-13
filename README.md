@@ -1,6 +1,6 @@
 # news_app
 
-News app using global news api.
+My News App
 
 ## Getting Started
 

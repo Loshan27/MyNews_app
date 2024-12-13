@@ -33,7 +33,7 @@ class _NewsSourcesPageState extends State<NewsSourcesPage> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('News Sources'),
-        backgroundColor: Colors.blue,
+        backgroundColor: Colors.orange,
         foregroundColor: Colors.white,
       ),
       body: ListView.builder(
